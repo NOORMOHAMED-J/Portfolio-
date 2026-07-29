@@ -17,7 +17,7 @@ export const personalInfo = {
   },
   summary:
     "Data Science graduate with a strong analytical, detail-oriented mindset and hand on experience in data entry, database management,and reporting,certified in AI powered data analystics,Python,and NoSQL databases. Seeking to bring data driven decision-making and dedication on a Performance Marleting Executive role at Biznet Consulting,supporting paid campaigns across LinkedIn,X,Snapchat,Google,and MetaAds.",
-  resumeUrl: "/Md_Yusuf_Resume_2026.pdf",
+  resumeUrl: "/NoorMohamedResume.pdf",
 };
 
 export const socialLinks = {
@@ -36,7 +36,7 @@ export const heroContent = {
     text: "Contact Me",
     href: "mailto:jalal15368@gmail.com?subject=Hiring Inquiry – Portfolio&body=Hello Noor Mohamed,%0D%0A%0D%0AI came across your portfolio and would like to discuss an opportunity with you.%0D%0A%0D%0ALooking forward to hearing from you.%0D%0ABest Regards,",
   },
-  ctaResume: { text: "Download Resume", href: "/Md_Yusuf_Resume_2026.pdf" },
+  ctaResume: { text: "Download Resume", href: "/NoorMohamedResume.pdf" },
 };
 
 export const aboutContent = {
