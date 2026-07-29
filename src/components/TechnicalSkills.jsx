@@ -1,4 +1,4 @@
-//import React from 'react';
+import React from 'react';
 import { technicalSkills } from '../data/portfolioData';
 
 const SkillProgress = ({ name, level }) => (
