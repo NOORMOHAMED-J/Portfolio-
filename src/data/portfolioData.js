@@ -99,7 +99,7 @@ export const technicalSkills = {
       skills: [
         { name: "MS Excel", level: 90 },
         { name: "MS PowerPoint", level: 85 },
-        { name: "MS Word", level: 88 }
+        { name: "MS Word", level: 88 },
         { name: "Data Entry & Verification", level: 92}
       ]
     },
