@@ -1,4 +1,4 @@
-import React from 'react';
+//import React from 'react';
 import { softSkillsList } from '../data/portfolioData';
 
 const SoftSkillCard = ({ skill, index }) => (
