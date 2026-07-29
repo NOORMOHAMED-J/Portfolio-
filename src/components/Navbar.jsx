@@ -1,4 +1,4 @@
-//import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { personalInfo } from '../data/portfolioData';
 
 const Navbar = () => {
