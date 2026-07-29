@@ -21,7 +21,7 @@ export const personalInfo = {
 };
 
 export const socialLinks = {
-  github: "https://github.com/mdyusuf0",
+  github: "https://github.com/noormohamed",
   linkedin: "www.linkedin.com/in/noor-mohamed-335b2a343",
   instagram: "https://www.instagram.com/mr_thaeex_/?utm_source=ig_web_button_share_sheet",
 };
