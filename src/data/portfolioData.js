@@ -91,7 +91,7 @@ export const technicalSkills = {
       skills: [
         { name: "MongoDB/NoSQL", level: 80 },
         { name: "MySQL", level: 75 },
-        { name: "DBMS", level: 82 },
+        { name: "DBMS", level: 82 }
       ]
     },
     {
@@ -117,7 +117,7 @@ export const technicalSkills = {
         { name: "LinkedIn Ads / Campaign Manager", level: 55 },
         { name: "Google Ads", level: 55 },
         { name: "Meta Business Suite", level: 55 },
-        { name: "Snapchat / X Ads Manager", level: 55 },
+        { name: "Snapchat / X Ads Manager", level: 55 }
       ]
     },
     {
