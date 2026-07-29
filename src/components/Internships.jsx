@@ -92,8 +92,3 @@ const Internships = () => {
 };
 
 export default Internships;
-      </div>
-    </section>
-  );
-};
-export default Internships;
