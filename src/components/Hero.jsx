@@ -2,7 +2,7 @@ import React, { useRef, useEffect, useState } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import heroVideo from '../assets/hero video/noor mohamed.mp4';
-import { heroContent, personalInfo, socialLinks } from '../data/portfolioData';
+import { heroContent, socialLinks } from '../data/portfolioData';
 
 const Hero = () => {
   const videoRef = useRef(null);
@@ -17,6 +17,11 @@ const Hero = () => {
     });
     // Video does NOT autoplay anymore
   }, []);
+
+  // Automatically sync mute state with play state (no click needed for this part)
+  useEffect(() => {
+    setIsMuted(!isPlaying);
+  }, [isPlaying]);
 
   const toggleVideo = (e) => {
     e.stopPropagation();
