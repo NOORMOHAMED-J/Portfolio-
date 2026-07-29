@@ -1,4 +1,4 @@
-import React from 'react';
+//import React from 'react';
 import stackImage from '../assets/about/image.png';
 import { aboutContent } from '../data/portfolioData';
 
