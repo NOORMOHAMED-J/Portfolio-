@@ -169,7 +169,7 @@ export const projects = [
       "Watermarking",
     ],
     links: {
-      github: "https://github.com/ersamirsingh/UrbanPiper",
+      github: "https://github.com/NOORMOHAMED-J/Spread-Spectrum-Watermarking-Security.git",
       demo: null,
     },
     isFlagship: true,
@@ -188,7 +188,7 @@ export const projects = [
                "Data Analysis"
         ],
     links: {
-      github: "https://github.com/mdyusuf0/Karigar",
+      github: "https://github.com/NOORMOHAMED-J/Smart_City-Project.git",
     },
     isFlagship: false,
   },
@@ -217,13 +217,13 @@ export const certificates = {
       icon: "📢",
     },
     {
-      name: "Career Edge – IT Primer",
-      issuer: "TCS iON",
-      icon: "🎓",
+      name: "Campaign manager 360 Certification",
+      issuer: "Google",
+      icon: "📈",
     },
     {
-      name: "Fundamentals of BI & Analytics",
-      issuer: "Lumenore",
+      name: "Google Analytics Certification",
+      issuer: "Google",
       icon: "📊",
     },
   ],
