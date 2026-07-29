@@ -7,7 +7,7 @@ import { heroContent, socialLinks } from '../data/portfolioData';
 const Hero = () => {
   const videoRef = useRef(null);
   const [isPlaying, setIsPlaying] = useState(false);
-  const [isMuted, setIsMuted] = useState(false);
+  const isMuted = !isPlaying;
 
   useEffect(() => {
     AOS.init({
@@ -17,11 +17,6 @@ const Hero = () => {
     });
     // Video does NOT autoplay anymore
   }, []);
-
-  // Automatically sync mute state with play state (no click needed for this part)
-  useEffect(() => {
-    setIsMuted(!isPlaying);
-  }, [isPlaying]);
 
   const toggleVideo = (e) => {
     e.stopPropagation();
